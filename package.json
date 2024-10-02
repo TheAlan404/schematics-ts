@@ -1,0 +1,21 @@
+{
+	"name": "@alan404/minecraft-assets",
+	"version": "0.0.2",
+	"author": "alan404",
+	"repository": "https://github.com/TheAlan404/minecraft-assets-ts",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
+	"files": [
+		"/dist"
+	],
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.2"
+	},
+	"dependencies": {
+		"@alan404/enum": "^0.2.1",
+		"@alan404/nbt": "^0.0.2"
+	}
+}

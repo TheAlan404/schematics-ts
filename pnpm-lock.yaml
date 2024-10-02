@@ -1,0 +1,49 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@alan404/enum':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@alan404/nbt':
+        specifier: ^0.0.2
+        version: 0.0.2
+    devDependencies:
+      typescript:
+        specifier: ^5.6.2
+        version: 5.6.2
+
+packages:
+
+  '@alan404/enum@0.2.1':
+    resolution: {integrity: sha512-cZcDbVcBrvv1xWnjA8UjqPVh2dfKThli3QeiACMBUBOi3Jbhh8K64KrKmHBKzwEn9tAasyESXLeN8D+sjWxeEg==}
+
+  '@alan404/nbt@0.0.2':
+    resolution: {integrity: sha512-+4lXZyTXeEu8Q2EbiaKn0phcvMYlQQy1aGzI41dfxUu9OD/lbnsG87YXKOCyebISpLbzjtWX7obuzrSpfmkIxQ==}
+
+  '@xobj/buffer@1.0.8':
+    resolution: {integrity: sha512-ru9MHT0XsWW8tgxeRJTegkF/ABchUdFoWPfubDQYtbsmvP355K2JrWQO3mCeb+pbe6tNso2LbGnJ040rbx9gVg==}
+
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@alan404/enum@0.2.1': {}
+
+  '@alan404/nbt@0.0.2':
+    dependencies:
+      '@alan404/enum': 0.2.1
+      '@xobj/buffer': 1.0.8
+
+  '@xobj/buffer@1.0.8': {}
+
+  typescript@5.6.2: {}
