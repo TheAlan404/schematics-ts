@@ -1,10 +1,10 @@
 {
-	"name": "@alan404/minecraft-assets",
-	"version": "0.0.2",
+	"name": "@alan404/schematic",
+	"version": "0.0.1",
 	"author": "alan404",
-	"repository": "https://github.com/TheAlan404/minecraft-assets-ts",
-	"main": "dist/src/index.js",
-	"types": "dist/src/index.d.ts",
+	"repository": "https://github.com/TheAlan404/schematics-ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"files": [
 		"/dist"
 	],

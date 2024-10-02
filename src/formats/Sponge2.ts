@@ -19,6 +19,8 @@ export class Sponge2Entity extends NBTDocument {
 export class Sponge2Schematic extends Sponge1Schematic {
     static FormatVersion = 2;
 
+    Version: 2 = 2;
+
     @Field("Int")
     DataVersion: number = 0;
 

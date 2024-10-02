@@ -40,7 +40,7 @@ export class Sponge1Schematic extends NBTDocument {
     static FormatVersion = 1;
 
     @Field("Int")
-    Version: number = 1;
+    Version: 1 | 2 = 1;
 
     @Field("Compound", Sponge1Metadata)
     Metadata: Sponge1Metadata;

@@ -20,7 +20,7 @@ export class Sponge3BiomeContainer extends NBTDocument {
 export class Sponge3Schematic extends NBTDocument {
     static FormatVersion = 3;
     
-    @Field("Int") Version: number = 0;
+    @Field("Int") Version: 3 = 3;
     @Field("Int") DataVersion: number = 0;
 
     @Field("Compound", Sponge3Metadata)
